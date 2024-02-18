@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "digiRupi",
+    "slug": "digirupi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-color.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.amex.digirupi",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecceb5fa-65c6-45e5-b1f7-808344c4ffed"
+      }
+    },
+    "owner": "anushthaprakash"
+  }
+}
