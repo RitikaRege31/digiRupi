@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "production:expo:build": "expo build:web",
     "production:build": "npx prisma generate && npx prisma migrate deploy && eas build -p android --profile preview",
-    "build": "expo build:web"
+    "build": "expo export"
   },
   "dependencies": {
     "@aws-amplify/ui-react-native": "^1.2.18",
